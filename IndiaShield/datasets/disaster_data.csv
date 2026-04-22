@@ -1,0 +1,21 @@
+id,type,location,state,latitude,longitude,severity,timestamp,description
+1,Flood,Mumbai,Maharashtra,19.076,72.8777,8,2026-03-01 06:00:00,Heavy flooding in coastal areas due to cyclone
+2,Earthquake,Delhi,Delhi,28.6139,77.209,6,2026-03-01 08:30:00,Moderate earthquake felt across NCR region
+3,Cyclone,Chennai,Tamil Nadu,13.0827,80.2707,9,2026-03-01 10:00:00,Severe cyclone making landfall on east coast
+4,Flood,Kolkata,West Bengal,22.5726,88.3639,7,2026-03-01 12:00:00,River overflow causing urban flooding
+5,Drought,Jaipur,Rajasthan,26.9124,75.7873,5,2026-03-01 14:00:00,Prolonged drought affecting agricultural zones
+6,Landslide,Shimla,Himachal Pradesh,31.1048,77.1734,7,2026-03-01 16:00:00,Landslide blocking NH-5 highway
+7,Earthquake,Ahmedabad,Gujarat,23.0225,72.5714,5,2026-03-01 18:00:00,Minor tremors reported in Kutch district
+8,Flood,Patna,Bihar,25.5941,85.1376,8,2026-03-02 06:00:00,Ganga river in spate with low-lying areas inundated
+9,Cyclone,Bhubaneswar,Odisha,20.2961,85.8245,9,2026-03-02 08:00:00,Category 4 cyclone approaching Odisha coast
+10,Drought,Hyderabad,Telangana,17.385,78.4867,4,2026-03-02 10:00:00,Water reservoirs at critically low levels
+11,Flood,Guwahati,Assam,26.1445,91.7362,7,2026-03-02 12:00:00,Brahmaputra river flooding riverside villages
+12,Heatwave,Nagpur,Maharashtra,21.1458,79.0882,6,2026-03-02 14:00:00,Extreme temperatures exceeding 45 degrees Celsius
+13,Landslide,Gangtok,Sikkim,27.329,88.6138,8,2026-03-02 16:00:00,Multiple landslides cutting off remote villages
+14,Earthquake,Srinagar,Jammu & Kashmir,34.0837,74.7973,7,2026-03-03 06:00:00,Tremors felt across Kashmir valley
+15,Flood,Bengaluru,Karnataka,12.9716,77.5946,5,2026-03-03 08:00:00,Urban flooding due to heavy rainfall
+16,Cyclone,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,8,2026-03-03 10:00:00,Cyclone warning issued for North Andhra coast
+17,Heatwave,Lucknow,Uttar Pradesh,26.8467,80.9462,5,2026-03-03 12:00:00,Heat wave conditions in eastern UP
+18,Flood,Thiruvananthapuram,Kerala,8.5241,76.9366,6,2026-03-03 14:00:00,Heavy monsoon rains triggering flash floods
+19,Drought,Bhopal,Madhya Pradesh,23.2599,77.4126,4,2026-03-03 16:00:00,Below normal rainfall causing crop failure
+20,Landslide,Dehradun,Uttarakhand,30.3165,78.0322,7,2026-03-04 06:00:00,Cloudburst triggers landslides in hilly areas

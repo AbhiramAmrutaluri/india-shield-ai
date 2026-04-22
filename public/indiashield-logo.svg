@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">India Shield</title>
+  <desc id="desc">Shield logo for India Shield</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18d7ff" />
+      <stop offset="100%" stop-color="#0a7cff" />
+    </linearGradient>
+  </defs>
+  <path d="M128 20 52 48v66c0 58 35 107 76 122 41-15 76-64 76-122V48l-76-28Z" fill="url(#g)"/>
+  <path d="M128 46 77 64v50c0 41 24 76 51 88 27-12 51-47 51-88V64l-51-18Z" fill="#07131f" opacity="0.9"/>
+  <path d="M128 70c-16 0-29 13-29 29 0 8 3 15 8 21l-9 45h60l-9-45c5-6 8-13 8-21 0-16-13-29-29-29Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M128 94c-6 0-11 5-11 11s5 11 11 11 11-5 11-11-5-11-11-11Zm0-10 4 8 9 1-6 6 1 9-8-4-8 4 1-9-6-6 9-1 4-8Z" fill="#18d7ff"/>
+</svg>

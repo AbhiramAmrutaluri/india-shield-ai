@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    --background: 220 25% 5%;
+    --foreground: 210 20% 90%;
+
+    --card: 220 20% 8%;
+    --card-foreground: 210 20% 90%;
+
+    --popover: 220 20% 8%;
+    --popover-foreground: 210 20% 90%;
+
+    --primary: 190 100% 50%;
+    --primary-foreground: 220 25% 5%;
+
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 20% 80%;
+
+    --muted: 220 15% 12%;
+    --muted-foreground: 215 15% 55%;
+
+    --accent: 220 15% 15%;
+    --accent-foreground: 210 20% 90%;
+
+    --destructive: 0 80% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --warning: 38 95% 55%;
+    --warning-foreground: 38 95% 10%;
+
+    --success: 145 70% 45%;
+    --success-foreground: 145 70% 5%;
+
+    --info: 190 100% 50%;
+    --info-foreground: 220 25% 5%;
+
+    --critical: 0 80% 55%;
+    --severe: 25 90% 55%;
+    --moderate: 38 95% 55%;
+    --low: 190 100% 50%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 18%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.5rem;
+
+    --glow-primary: 0 0 20px hsl(190 100% 50% / 0.3);
+    --glow-warning: 0 0 20px hsl(38 95% 55% / 0.3);
+    --glow-critical: 0 0 20px hsl(0 80% 55% / 0.3);
+    --glow-success: 0 0 20px hsl(145 70% 45% / 0.3);
+
+    --sidebar-background: 220 20% 6%;
+    --sidebar-foreground: 210 20% 80%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 220 25% 5%;
+    --sidebar-accent: 220 15% 12%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 220 15% 15%;
+    --sidebar-ring: 190 100% 50%;
+  }
+
+  /* ── LIGHT THEME ─────────────────────────────────────────── */
+  .light {
+    --background: 210 20% 96%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    --primary: 190 80% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 88%;
+    --secondary-foreground: 220 25% 15%;
+
+    --muted: 220 15% 91%;
+    --muted-foreground: 220 15% 38%;
+
+    --accent: 220 15% 88%;
+    --accent-foreground: 220 25% 10%;
+
+    --destructive: 0 75% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --warning: 38 90% 45%;
+    --warning-foreground: 0 0% 100%;
+
+    --success: 145 60% 32%;
+    --success-foreground: 0 0% 100%;
+
+    --info: 190 80% 35%;
+    --info-foreground: 0 0% 100%;
+
+    --critical: 0 75% 50%;
+    --severe: 25 85% 48%;
+    --moderate: 38 90% 45%;
+    --low: 190 80% 35%;
+
+    --border: 220 15% 82%;
+    --input: 220 15% 82%;
+    --ring: 190 80% 35%;
+
+    --glow-primary: 0 0 20px hsl(190 80% 35% / 0.2);
+    --glow-warning: 0 0 20px hsl(38 90% 45% / 0.2);
+    --glow-critical: 0 0 20px hsl(0 75% 50% / 0.2);
+    --glow-success: 0 0 20px hsl(145 60% 32% / 0.2);
+
+    --sidebar-background: 0 0% 97%;
+    --sidebar-foreground: 220 25% 15%;
+    --sidebar-primary: 190 80% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 15% 91%;
+    --sidebar-accent-foreground: 220 25% 10%;
+    --sidebar-border: 220 15% 82%;
+    --sidebar-ring: 190 80% 35%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .glow-primary {
+    box-shadow: var(--glow-primary);
+  }
+  .glow-warning {
+    box-shadow: var(--glow-warning);
+  }
+  .glow-critical {
+    box-shadow: var(--glow-critical);
+  }
+  .glow-success {
+    box-shadow: var(--glow-success);
+  }
+
+  .text-gradient-primary {
+    background: linear-gradient(135deg, hsl(190 100% 50%), hsl(210 100% 60%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-warning {
+    background: linear-gradient(135deg, hsl(38 95% 55%), hsl(25 90% 55%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .border-glow {
+    border-color: hsl(190 100% 50% / 0.3);
+  }
+
+  .bg-grid {
+    background-image: 
+      linear-gradient(hsl(220 15% 15% / 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(220 15% 15% / 0.5) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .scanline {
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      hsl(190 100% 50% / 0.03) 50%,
+      transparent 100%
+    );
+    animation: scanline 4s linear infinite;
+  }
+
+  @keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  @keyframes data-stream {
+    0% { transform: translateY(0); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { transform: translateY(-100%); opacity: 0; }
+  }
+
+  .leaflet-container {
+    background: hsl(220 25% 5%) !important;
+    border-radius: var(--radius);
+  }
+
+  .leaflet-tile-pane {
+    filter: brightness(0.3) saturate(0.3) hue-rotate(180deg);
+  }
+
+  .leaflet-control-zoom a {
+    background: hsl(220 20% 8%) !important;
+    color: hsl(190 100% 50%) !important;
+    border-color: hsl(220 15% 18%) !important;
+  }
+
+  /* Light theme overrides */
+  .light .bg-grid {
+    background-image:
+      linear-gradient(hsl(220 15% 72% / 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(220 15% 72% / 0.5) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .light .leaflet-container {
+    background: hsl(210 20% 96%) !important;
+  }
+
+  .light .leaflet-tile-pane {
+    filter: none;
+  }
+
+  .light .leaflet-control-zoom a {
+    background: hsl(0 0% 100%) !important;
+    color: hsl(190 80% 35%) !important;
+    border-color: hsl(220 15% 82%) !important;
+  }
+}
