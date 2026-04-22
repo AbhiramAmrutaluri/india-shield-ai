@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Shield body -->
+  <path
+    d="M32 4 L56 14 L56 34 C56 47 44 57 32 61 C20 57 8 47 8 34 L8 14 Z"
+    fill="hsl(190,100%,12%)"
+    stroke="hsl(190,100%,50%)"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+  <!-- Inner shield glow fill -->
+  <path
+    d="M32 10 L51 18.5 L51 34 C51 44.5 42 52.5 32 56 C22 52.5 13 44.5 13 34 L13 18.5 Z"
+    fill="hsl(190,100%,8%)"
+  />
+  <!-- India map silhouette (simplified triangle + peninsula) -->
+  <path
+    d="M24 22 L40 22 L40 28 L36 28 L36 32 L38 36 L32 44 L26 36 L28 32 L28 28 L24 28 Z"
+    fill="hsl(190,100%,50%)"
+    opacity="0.9"
+  />
+  <!-- Top dot (north) -->
+  <circle cx="32" cy="19" r="2" fill="hsl(190,100%,50%)" />
+  <!-- Glow ring -->
+  <path
+    d="M32 4 L56 14 L56 34 C56 47 44 57 32 61 C20 57 8 47 8 34 L8 14 Z"
+    fill="none"
+    stroke="hsl(190,100%,50%)"
+    stroke-width="1"
+    stroke-linejoin="round"
+    opacity="0.3"
+  />
+</svg>
