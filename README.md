@@ -1,73 +1,190 @@
-# Welcome to your Lovable project
+# 🇮🇳 India Shield AI
+### Real-Time Disaster Intelligence & Early Warning System
 
-## Project info
+India Shield AI is a Big Data and Artificial Intelligence platform designed to detect, analyze, and predict natural disasters in real time. The system collects data from multiple trusted sources, processes high-volume event streams using Apache Kafka and Apache Spark, predicts disaster severity using Machine Learning, and visualizes live incidents on an interactive dashboard to support faster emergency response.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📌 Problem Statement
 
-There are several ways of editing your application.
+Natural disasters such as floods, earthquakes, cyclones, and wildfires often cause significant damage due to delayed detection and fragmented information sources. Emergency agencies require a unified platform capable of monitoring, analyzing, and predicting disasters in real time.
 
-**Use Lovable**
+India Shield AI addresses this challenge by integrating Big Data technologies with Artificial Intelligence to provide a centralized disaster intelligence system.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+# 🚀 Features
 
-**Use your preferred IDE**
+- 🌍 Real-time disaster monitoring
+- ⚡ High-speed data streaming with Apache Kafka
+- 🔥 Big Data processing using Apache Spark
+- 🤖 AI-based disaster severity prediction
+- 🗺️ Interactive live disaster map
+- 📊 Real-time analytics dashboard
+- 🚨 Early warning and alert generation
+- 📈 Historical trend analysis
+- ☁️ Scalable distributed architecture
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# 🏗️ System Architecture
 
-Follow these steps:
+Data Sources
+⬇
+Weather APIs
+News APIs
+USGS Earthquake Data
+NASA Data
+GDACS Alerts
+⬇
+Apache Kafka
+⬇
+Apache Spark Streaming
+⬇
+Machine Learning (Random Forest)
+⬇
+Flask Backend API
+⬇
+React Dashboard
+⬇
+Live Maps • Analytics • Alerts
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- Vite
+- Leaflet Maps
+- Recharts
+- Shadcn UI
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Backend
+- Python Flask
+- REST APIs
+
+## Big Data
+- Apache Kafka
+- Apache Spark
+- Hadoop HDFS
+
+## Machine Learning
+- Scikit-learn
+- Random Forest Classifier
+- Pandas
+- NumPy
+
+## Visualization
+- Streamlit
+- Plotly
+
+---
+
+# 📊 Data Sources
+
+- OpenWeatherMap API
+- USGS Earthquake API
+- NASA Disaster Data
+- GDACS
+- News APIs
+
+---
+
+# 🤖 AI Model
+
+The platform uses a Random Forest Classifier to predict disaster severity based on multiple environmental and disaster-related parameters.
+
+Prediction Levels:
+- Low
+- Medium
+- High
+- Critical
+
+---
+
+# 💻 Dashboard Features
+
+- Live disaster map
+- Disaster statistics
+- Severity prediction
+- Real-time alerts
+- Disaster trends
+- Historical analytics
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/AbhiramAmrutaluri/india-shield-ai.git
+cd india-shield-ai
+```
+
+## Install Frontend
+
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Install Backend
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+pip install -r requirements.txt
+python app.py
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# 📂 Project Structure
 
-## What technologies are used for this project?
+```
+india-shield-ai
+│
+├── frontend
+├── backend
+├── ml-model
+├── kafka
+├── spark
+├── dashboard
+├── datasets
+└── README.md
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# 🎯 Project Objectives
 
-## How can I deploy this project?
+- Improve disaster preparedness
+- Enable real-time monitoring
+- Predict disaster severity using AI
+- Reduce emergency response time
+- Support data-driven decision making
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+# 📈 Future Enhancements
 
-Yes, you can!
+- Drone integration
+- Satellite image analysis
+- Mobile emergency application
+- SMS and Email alerts
+- AI chatbot for emergency guidance
+- IoT sensor integration
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# 👨‍💻 Developed By
+
+**Abhiram Amruthaluri**
+
+B.Tech – Data Engineering
+
+---
+
+# ⭐ If you found this project useful, don't forget to star the repository.
